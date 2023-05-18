@@ -1,0 +1,31 @@
+.nav-list{
+display: flex;
+justify-content: space-evenly;
+gap: 24px;
+border: 1px black solid;
+}
+.tag-filter{
+    display: flex;
+    justify-content: space-between;
+    border: 1px black solid;  
+}
+.posts-list-container{
+    display: flex;
+    flex-direction: column;
+    gap: 48px 0;
+}    
+
+.posts-list{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-template-rows: 450px 400px;
+    gap: 80px 24px; 
+}
+.posts-list article:nth-child(4n) {
+    grid-column: 1 / 4;
+    background-color: var(--color-aquarius-100);
+}
+
+.posts-list article{
+    background-color: var(--color-back-pearl-0);
+}
