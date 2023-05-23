@@ -10,7 +10,7 @@ body{
     margin-right: auto;
     @include tools.container-width;
     background-color: var( --color-back-pearl-50); 
-    border: 1px black solid;
+    
 }
  
 header{
@@ -19,12 +19,12 @@ header{
     justify-content: space-between;
    @include tools.container-width;
    padding: 19.5px 0;
-   border: 1px black solid;
+  
 }
 
 main{
     display: flex;
     flex-direction: column;
     @include tools.container-width;
-    border: 1px black solid;
+   
 }
